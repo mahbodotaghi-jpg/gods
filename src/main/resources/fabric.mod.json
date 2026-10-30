@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "nitroclient",
+  "version": "${version}",
+  "name": "Nitro Client",
+  "description": "Utility client: combat HUDs, ESP, freecam, effects and a click GUI (Right Shift).",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.nitro.NitroClient"] },
+  "mixins": ["nitroclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

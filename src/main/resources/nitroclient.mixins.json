@@ -1,0 +1,8 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.nitro.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ClientPlayNetworkHandlerMixin", "InGameOverlayRendererMixin", "SkyRenderingMixin", "FogRendererMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
